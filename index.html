@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>office3840 Bürogemeinschaft</title>
+    <meta name="description" content="office3840 Bürogemeinschaft">
+    <meta name="author" content="Michael Müller">
+
+    <link rel="stylesheet" href="style.css?v=1">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <aside>
+        <!-- Platzhalter für Partikelanimation -->
+        <div id="particles"></div>
+
+        <!-- Logo -->
+        <div id="logo" class="sidepadding">
+            office<span class="logonumber logoone">38</span><span class="logonumber logotwo">40</span>
+        </div>
+
+        <!-- Bereich links -->
+        <h1 class="sidepadding">Bürogemeinschaft Neue Technologien Düsseldorf</h1>
+        <footer class="sidepadding"><strong>office3840 Asset Management GbR</strong>
+            <p>Michael Müller &amp; Felix Kollmann<br /> Schinkelstraße 38-40 | 40211 Düsseldorf<br /> Geschäftsführer: Felix
+                Kollmann
+            </p>
+            <p>Telefon: +49-211-248628-20<br />contact2017@office3840.net</p>
+        </footer>
+    </aside>
+
+    <!-- Platzhalter
+        Wird benötigt, da linker Bereich position:fixed ist -->
+    <div id="spacer"></div>
+
+    <!-- Bereich rechts -->
+    <div id="content">
+
+        <!-- Kopfbild -->
+        <section class="header double"></section>
+
+        <!-- Anfahrtszeichnung -->
+        <section class="anfahrt"></section>
+
+        <!-- Pflanzenfoto -->
+        <section class="plant image"></section>
+
+        <!-- Katzenfoto -->
+        <section class="marvin image">
+            <label class="dark"><strong>#Officecats</strong></label>
+        </section>
+
+        <!-- Link zu TwinPoint -->
+        <section class="twinpoint button" data-link="http://www.twinpoint.de">
+            <img src="/img/twinpoint.svg" alt="Logo TwinPoint Software" />
+            <label><strong>#Mieter</strong>TwinPoint Software GmbH</label>
+        </section>
+
+        <!-- Link zu müller & konsorten -->
+        <section class="konsorten button" data-link="https://konsorten.de">
+            <img src="/img/konsorten.svg" alt="Logo TwinPoint Software" />
+            <label><strong>#Mieter</strong>müller &amp; konsorten<br />// Agentur für Digitalmarketing e.K.</label>
+        </section>
+
+        <!-- Serverfoto -->
+        <section class="server image"></section>
+
+        <!-- Google Maps Karte -->
+        <section class="map double" id="map"></section>
+    </div>
+
+    <script src="/node_modules/particles.js/particles.js"></script>
+    <script src="script.js?v=1"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4JleDfv7RvrffD42CoLFs8I0IIxR27UE&callback=initMap" async
+        defer></script>
+</body>
+
+</html>

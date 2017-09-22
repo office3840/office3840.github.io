@@ -1,0 +1,12 @@
+{
+  "name": "office3840.net",
+  "version": "1.0.0",
+  "description": "Bürogemeinschaft Webseite",
+  "main": "index.js",
+  "repository": "https://github.com/office3840/office3840.github.io/",
+  "author": "Michael Müller <michael@konsorten.de>",
+  "license": "MIT",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
